@@ -19,6 +19,16 @@ Or
    npx expo install
    ```
 
+This command builds the android and ios directories:
+```
+npx expo prebuild --clean
+```
+
+This builds the Android version:
+```
+npx expo run:android
+```
+
 3. Start the app
 
    ```bash
